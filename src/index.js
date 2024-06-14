@@ -111,11 +111,7 @@ class NearParkings extends HTMLElement {
       color: #666;
     }
   </style>
-  <div class="coordinates-container">
-    <strong>Search Coordinates:</strong><br>
-    Left X: ${leftX}, Left Y: ${leftY}<br>
-    Right X: ${rightX}, Right Y: ${rightY}
-  </div>
+  
         <div class="parking-container">
       `;
 
