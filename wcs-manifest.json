@@ -39,7 +39,7 @@
         "label": "Accepts either a pair of coordinates (x, y) or a set of four coordinates (leftX, leftY, rightX, rightY), defining the search area for nearby parking information. For a pair of coordinates, the element automatically creates a bounding box around the specified point, while for a set of four coordinates, it directly defines the search area.",
         "required": true,
         "options": {
-          "default": "near-parkings"
+          "default": "11.356305,46.496449"
         }
       }
     ]
