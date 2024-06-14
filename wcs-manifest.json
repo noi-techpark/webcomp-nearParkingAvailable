@@ -4,6 +4,7 @@
   "description": "Near parking that is Available",
   "descriptionAbstract": "Near parking that is Available",
   "license": "AGPL-3.0-or-later",
+  "repositoryUrl": "https://github.com/noi-techpark/webcomp-nearParkingAvailable.git",
   "copyrightHolders": [
     {
       "name": "NOI",
