@@ -50,7 +50,7 @@ class NearParkings extends HTMLElement {
     }
 
     const response = await fetch(
-      `https://mobility.api.opendatahub.com/v2/flat%2Cnode/ParkingStation?limit=200&offset=0&where=scoordinate.bbi.%28${leftX}%2C${leftY}%2C${rightX}%2C${rightY}%29&shownull=false&distinct=true`,
+      `https://mobility.api.opendatahub.com/v2/flat%2Cnode/ParkingStation?limit=200&offset=0&where=scoordinate.bbi.%28${leftX}%2C${leftY}%2C${rightX}%2C${rightY}%29&shownull=false&distinct=true&origin=webcomp-nearParkingAvailable`,
       {
         method: "GET",
         headers: {
